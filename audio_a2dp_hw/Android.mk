@@ -10,7 +10,7 @@ LOCAL_SRC_FILES:= \
 LOCAL_C_INCLUDES+= .
 
 LOCAL_SHARED_LIBRARIES := \
-	libcutils
+	libcutils liblog
 
 LOCAL_SHARED_LIBRARIES += \
 	libpower
